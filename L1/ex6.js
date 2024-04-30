@@ -1,8 +1,8 @@
 const prompt = require ("prompt-sync")();
 
-let a = parseInt (prompt());
-let b = parseInt (prompt());
-let c = parseInt (prompt());
+let a = parseInt (prompt("Lado a: "));
+let b = parseInt (prompt("Lado b: "));
+let c = parseInt (prompt("Lado c: "));
 
 if (a < b + c && b < a + c && c < a + b){
     if (a == b && a == c){
