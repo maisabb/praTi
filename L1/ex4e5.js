@@ -1,7 +1,7 @@
 const prompt = require ("prompt-sync")();
 
-let nota1 = parseInt (prompt ());
-let nota2 = parseInt (prompt ());
+let nota1 = parseInt (prompt ("Primeira nota: "));
+let nota2 = parseInt (prompt ("Segunda nota: "));
 
 let media = (nota1 + nota2)/2;
 
