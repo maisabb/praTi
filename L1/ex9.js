@@ -1,6 +1,6 @@
 const prompt = require ("prompt-sync")();
 
-let regiao = prompt ();
+let regiao = prompt ("Digite o código da região: ");
 
 if (regiao == 1){
     console.log ("Sul");
