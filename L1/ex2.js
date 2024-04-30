@@ -1,12 +1,12 @@
 const prompt = require ("prompt-sync")();
 
-let eleitores = parseInt (prompt ());
-let brancos = parseInt (prompt ());
-let nulos = parseInt (prompt ());
-let validos = parseInt (prompt ());
+let eleitores = parseInt (prompt ("Quantidade de eleitores: "));
+let brancos = parseInt (prompt ("Quantidade de votos brancos: "));
+let nulos = parseInt (prompt ("Quantidade de nulos: "));
+let validos = parseInt (prompt ("Quantidade de válidos: "));
 
 let pBrancos = (brancos * 100)/200;
 let pNulos = (nulos * 100)/200;
 let pValidos = (validos * 100)/200;
 
-console.log ("%d\n%d\n%d", pBrancos, pNulos, pValidos);
+console.log ("Porcentagem de votos brancos: %d\nPorcentagem de votos nulos: %d\nPorcentagem de votos válidos: %d", pBrancos, pNulos, pValidos);
