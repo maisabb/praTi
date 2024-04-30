@@ -1,6 +1,6 @@
 const prompt = require ("prompt-sync")();
 
-let macas = parseInt (prompt());
+let macas = parseInt (prompt("Quantidade de maçãs: "));
 let valor;
 
 if (macas < 12){
