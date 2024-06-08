@@ -1,0 +1,47 @@
+#forms {
+    background-color: rgb(184, 131, 234);
+    width: 320px;
+    height: 390px;
+    border-radius: 18px;
+}
+
+#igual {
+    height: 120px;
+}
+
+#igual:hover {
+    background-color: rgb(133, 243, 123);
+}
+
+.resultado {
+    width: 300px;
+    height: 40px;
+    border-radius: 18px;
+    position: relative;
+    left: 3px;
+    border-style: double;
+}
+
+.botao {
+    background-color: white;
+    border: none;
+    width: 53px;
+    height: 43px;
+    margin: 9px;
+    border-radius: 18px;
+    border-style: groove;
+}
+
+input:hover {
+    background-color: #ffffff86;
+
+}
+
+.linha {
+    position: relative;
+    left: 3px;
+}
+
+#del:hover {
+    background-color: rgb(227, 62, 62);
+}
