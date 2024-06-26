@@ -1,0 +1,53 @@
+/* Header */
+
+* {
+    margin: 0;
+    
+}
+
+#cabecalho {
+    background-color: blueviolet;
+    height: 80px;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    padding: 25px;
+
+    
+
+}
+
+ul li {
+    display: inline;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Main - Home */
+
+#about {
+    width: 800px;
+    border: 1px solid green;
+
+    margin-left: 300px;
+    margin-top: 150px;
+
+
+}
+
+img {
+    width: 300px;
+}
+
+#texto {
+    width: 500px;
+    float: left;
+}
+
